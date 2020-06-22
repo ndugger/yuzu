@@ -1,0 +1,33 @@
+{
+  "name": "yuzu",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndugger/yuzu.git"
+  },
+  "author": "Nick Dugger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndugger/yuzu/issues"
+  },
+  "homepage": "https://github.com/ndugger/yuzu#readme",
+  "dependencies": {
+    "cortex": "github:ndugger/cortex",
+    "cortex-router": "github:ndugger/cortex-router",
+    "ejs": "^3.1.3",
+    "fusion": "github:ndugger/fusion",
+    "pathfinder": "github:ndugger/pathfinder"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
